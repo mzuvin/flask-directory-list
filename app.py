@@ -17,7 +17,7 @@ from pprint import pprint
 import magic
 import urllib
 import sys
-
+from importlib import reload
 reload(sys)
 sys.setdefaultencoding('utf8')
 
